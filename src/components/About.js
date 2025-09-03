@@ -95,8 +95,7 @@ const About = () => {
                 end-to-end solutions that bring creative ideas to life.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Currently pursuing B.Tech in Computer Science Engineering with 
-                specialization in Artificial Intelligence, I combine technical 
+                Currently pursuing B.Tech in Computer Science Engineering, I combine technical 
                 expertise with creative problem-solving to build applications 
                 that make a difference.
               </p>
