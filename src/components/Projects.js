@@ -59,7 +59,7 @@ const Projects = () => {
       features: ["Blockchain Security", "Scheme Tracking", "Beneficiary Management", "Transparency"],
       github: "https://github.com/HarshMishra2803/govchain",
       live: "https://github.com/HarshMishra2803/govchain",
-      category: "Blockchain",
+      category: "Web App",
       icon: <FiDatabase />
     }
   ];

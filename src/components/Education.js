@@ -29,13 +29,13 @@ const Education = () => {
   };
 
   const education = {
-    degree: "B.Tech Computer Science Engineering (AI)",
+    degree: "B.Tech Computer Science Engineering",
     university: "Babu Banarasi Das University",
     location: "Lucknow, India",
     year: "3rd Year",
     duration: "2023 - 2027",
     gpa: "8.5/10",
-    specialization: "Artificial Intelligence",
+    specialization: "Computer Science",
     relevantCourses: [
       "Data Structures & Algorithms",
       "Machine Learning",
