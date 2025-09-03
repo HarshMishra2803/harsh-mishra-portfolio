@@ -1,4 +1,4 @@
-# Harsh Mishra - Personal Portfolio
+# Harsh Mishra - Personal Portfolio 🚀
 
 A modern, interactive, and professional personal portfolio website built with React and Tailwind CSS. Features a retro-futuristic design with glassmorphism effects, smooth animations, and a black & purple theme.
 
