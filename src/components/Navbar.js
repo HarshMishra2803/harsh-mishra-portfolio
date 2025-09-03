@@ -55,7 +55,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? 'glass backdrop-blur-md py-4' : 'py-6'
-      }`}
+      } ${darkMode ? 'text-white' : 'text-gray-900'}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -79,7 +79,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   activeSection === item.href.substring(1)
                     ? 'text-primary-400'
-                    : 'text-gray-300 hover:text-white'
+                    : darkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
                 {item.name}
@@ -132,7 +132,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 className={`block w-full text-left px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
                   activeSection === item.href.substring(1)
                     ? 'text-primary-400 bg-primary-500/10'
-                    : 'text-gray-300 hover:text-white hover:bg-white/5'
+                    : darkMode ? 'text-gray-300 hover:text-white hover:bg-white/5' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
                 }`}
               >
                 {item.name}

@@ -30,7 +30,7 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="fixed inset-0 bg-dark-900 flex items-center justify-center z-50">
+      <div className={`fixed inset-0 ${darkMode ? 'bg-dark-900' : 'bg-white'} flex items-center justify-center z-50`}>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -46,7 +46,7 @@ function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-2xl font-bold gradient-text"
+            className={`text-2xl font-bold gradient-text ${darkMode ? 'text-white' : 'text-gray-900'}`}
           >
             Loading Portfolio...
           </motion.h2>
@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className={`${darkMode ? 'dark' : ''} min-h-screen`}>
-      <div className="bg-dark-900 text-white relative overflow-hidden">
+      <div className={`${darkMode ? 'bg-dark-900 text-white' : 'bg-white text-gray-900'} relative overflow-hidden transition-colors duration-300`}>
         <ParticleBackground />
         
         {/* Main Content */}

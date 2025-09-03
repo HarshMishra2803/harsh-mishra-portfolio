@@ -18,9 +18,20 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark body {
   color: #e2e8f0;
   background: #0f172a;
-  overflow-x: hidden;
+}
+
+/* Light mode styles */
+body {
+  color: #1f2937;
+  background: #ffffff;
 }
 
 /* Custom scrollbar */
@@ -43,9 +54,16 @@ body {
 
 /* Glassmorphism utility classes */
 .glass {
-  background: rgba(15, 23, 42, 0.7);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(147, 51, 234, 0.2);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.7);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .glass-light {
