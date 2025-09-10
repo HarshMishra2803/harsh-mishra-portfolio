@@ -144,7 +144,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.2, y: -5 }}
               whileTap={{ scale: 0.9 }}
-              href="https://linkedin.com/in/harsh-mishra"
+              href="https://www.linkedin.com/in/harshmishra2803cse/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 glass rounded-full hover:bg-primary-500/20 transition-colors"
